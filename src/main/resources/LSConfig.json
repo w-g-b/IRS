@@ -1,0 +1,12 @@
+{
+  "lsName": "printer",
+  "rsIp": "127.0.0.1",
+  "rsPort": 4567,
+  "isExecutable": true,
+  "ifSave": true,
+  "fileName": "aaa",
+  "fileSuffix": "png",
+  "exeCommandWithMsg": "java Print",
+  "exeCommandDirectly": "java Print",
+  "exeCommandWithFile": "java Print"
+}

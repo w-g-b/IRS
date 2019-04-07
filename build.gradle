@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'com.gb'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.alibaba:fastjson:1.2.55'
+    compile group :'org.apache.pdfbox',name:'pdfbox',version:'2.0.13'
+    compile group :'org.apache.pdfbox',name:'pdfbox-app',version:'2.0.13'
+    compile group :'org.apache.pdfbox',name:'pdfbox-tools',version:'2.0.13'
+    compile group :'org.apache.pdfbox',name:'xmpbox',version:'2.0.13'
+    compile group :'org.apache.pdfbox',name:'preflight',version:'2.0.13'
+}
