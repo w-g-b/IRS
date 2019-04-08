@@ -34,7 +34,6 @@ public class IRLocalServer {
             return;
         }
         try {
-
             BufferedOutputStream bos = new BufferedOutputStream(client.getOutputStream());
             BufferedInputStream bis = new BufferedInputStream(client.getInputStream());
             bos.write(lsConfig.getLsName().getBytes());

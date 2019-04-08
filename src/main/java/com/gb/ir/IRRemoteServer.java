@@ -42,6 +42,7 @@ public class IRRemoteServer {
                 byte[] bytes = new byte[Constant.BUFFER_BYTE_SIZE];
                 int len = bis.read(bytes);
                 msg = new String(bytes, 0, len);
+                System.out.println("发送头文件信息:" + msg);
                 if (msg.matches("^--.+--$")) {
                     String clientName = msg.substring(2, msg.length() - 2);
                     lsMap.put(clientName, client);
@@ -73,7 +74,8 @@ public class IRRemoteServer {
                         Socket ls = lsMap.get(msg);
                         BufferedOutputStream bos = new BufferedOutputStream(ls.getOutputStream());
                         while ((len = bis.read(bytes)) > 0) {
-//                            System.out.println(new String(bytes, 0, len));
+                            //查看发送的数据
+                            System.out.println(new String(bytes, 0, len));
                             bos.write(bytes, 0, len);
                             bos.flush();
                         }
