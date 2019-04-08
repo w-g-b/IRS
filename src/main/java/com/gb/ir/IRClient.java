@@ -9,7 +9,8 @@ import java.net.Socket;
 public class IRClient {
     public static void main(String[] args) throws IOException {
         IRClient irClient = new IRClient();
-        irClient.sendMsg("127.0.0.1", 4567);
+        irClient.sendMsg("139.199.88.206", 4567);
+//        irClient.sendMsg("127.0.0.1", 4567);
     }
 
     public void sendMsg(String ip, int port) throws IOException {

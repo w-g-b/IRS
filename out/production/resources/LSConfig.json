@@ -1,12 +1,13 @@
 {
   "lsName": "printer",
-  "rsIp": "127.0.0.1",
+  "rsIp": "139.199.88.206",
   "rsPort": 4567,
   "isExecutable": true,
   "ifSave": true,
-  "fileName": "aaa",
+  "savePath": "",
+  "fileName": "",
   "fileSuffix": "png",
-  "exeCommandWithMsg": "java Print",
-  "exeCommandDirectly": "java Print",
-  "exeCommandWithFile": "java Print"
+  "exeCommandWithMsg": "",
+  "exeCommandDirectly": "notepad",
+  "exeCommandWithFile": ""
 }

@@ -73,7 +73,7 @@ public class IRRemoteServer {
                         Socket ls = lsMap.get(msg);
                         BufferedOutputStream bos = new BufferedOutputStream(ls.getOutputStream());
                         while ((len = bis.read(bytes)) > 0) {
-                            System.out.println(new String(bytes, 0, len));
+//                            System.out.println(new String(bytes, 0, len));
                             bos.write(bytes, 0, len);
                             bos.flush();
                         }

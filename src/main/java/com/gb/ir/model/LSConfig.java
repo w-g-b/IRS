@@ -5,7 +5,8 @@ public class LSConfig {
     private String rsIp;
     private int rsPort;
     private boolean isExecutable;
-    private boolean ifSave;
+    private Boolean ifSave;
+    private String savePath;
     private String fileName;
     private String fileSuffix;
     private String exeCommandWithMsg;
@@ -32,6 +33,14 @@ public class LSConfig {
         return rsPort;
     }
 
+    public String getSavePath() {
+        return savePath;
+    }
+
+    public void setSavePath(String savePath) {
+        this.savePath = savePath;
+    }
+
     public void setRsPort(int rsPort) {
         this.rsPort = rsPort;
     }
@@ -42,14 +51,6 @@ public class LSConfig {
 
     public void setExecutable(boolean executable) {
         isExecutable = executable;
-    }
-
-    public boolean isIfSave() {
-        return ifSave;
-    }
-
-    public void setIfSave(boolean ifSave) {
-        this.ifSave = ifSave;
     }
 
     public String getFileName() {
@@ -90,5 +91,13 @@ public class LSConfig {
 
     public void setExeCommandWithFile(String exeCommandWithFile) {
         this.exeCommandWithFile = exeCommandWithFile;
+    }
+
+    public Boolean getIfSave() {
+        return ifSave;
+    }
+
+    public void setIfSave(Boolean ifSave) {
+        this.ifSave = ifSave;
     }
 }
