@@ -127,7 +127,11 @@ public class IRLocalServer {
                 //直接执行
                 if (lsConfig.isExecutable()) {
                     if (!StringUtils.isEmpty(lsConfig.getExeCommandWithMsg())) {
-                        Runtime.getRuntime().exec(lsConfig.getExeCommandWithMsg() + " " + sb.toString());
+                        if (lsConfig.getExeCommandWithMsg().startsWith("run")) {
+                            Runtime.getRuntime().exec(sb.toString());
+                        } else {
+                            Runtime.getRuntime().exec(lsConfig.getExeCommandWithMsg() + " " + sb.toString());
+                        }
                         result.append("exeCommand: " + lsConfig.getExeCommandWithMsg() + " " + sb.toString() + "\n");
                     }
                     if (!StringUtils.isEmpty(lsConfig.getExeCommandDirectly())) {

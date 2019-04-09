@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="391c2fa4-a3bb-4b4a-bf63-bfb7506cf53f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/classes/META-INF/com.gb.IntranetRequest.main.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/classes/com/gb/dt/PortMapping.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gb/chat/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gb/chat/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gb/dt/PortMapping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/gb/ir/IRLocalServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/gb/ir/IRLocalServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/gb/ir/IRRemoteServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/gb/ir/IRRemoteServer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/gb/ir/IRRemoteServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/gb/ir/IRRemoteServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/output/5a3ece57-fd4e-4682-ac06-929c2212c3bd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gb/ir/IRLocalServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gb/ir/IRLocalServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gb/ir/IRRemoteServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gb/ir/IRRemoteServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/LSConfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/LSConfig.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -55,14 +45,14 @@
     <favorites_list name="IntranetRequest" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6645877">
+    <splitter split-orientation="horizontal" split-proportion="0.5890125">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/dt/PortMapping.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="79">
-                  <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+                <state relative-caret-position="319">
+                  <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -101,29 +91,10 @@
             <entry file="file://$PROJECT_DIR$/src/main/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor />
+                  <first_editor relative-caret-position="300">
+                    <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+                  </first_editor>
                   <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/model/LSConfig.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/util/PathUtils.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="6" column="59" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -147,10 +118,32 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/IRClient.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="555">
+                <state relative-caret-position="574">
                   <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/Constant.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/IRLocalServer.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="88">
+                  <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#6757#6758#0" expanded="true" />
+                    <element signature="e#6804#6805#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -175,11 +168,20 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/IRRemoteServer.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="495">
+                <state relative-caret-position="645">
                   <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/RSConfig.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -193,13 +195,28 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/resources/LSConfig.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
                 </state>
               </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/out/production/output/3e2f1da0-0397-4836-a0d8-3bf964183000.png">
+              <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/out/production/output/13dccb21-fe62-4c5e-a8d3-3628074d3762.png">
+              <provider selected="true" editor-type-id="images" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/out/production/output/79fc0859-d2ab-481b-9a46-e4ae9d501c03.png">
+              <provider selected="true" editor-type-id="images" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -248,26 +265,26 @@
         <option value="$PROJECT_DIR$/src/main/resources/Readme.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/gb/ir/util/StringUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gb/ir/model/LSConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/gb/ir/util/PathUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gb/ir/IRClient.java" />
         <option value="$PROJECT_DIR$/src/test/java/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gb/ir/IRLocalServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gb/ir/IRRemoteServer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/LSConfig.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/gb/dt/DataTransfer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gb/chat/ChatServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gb/chat/ChatClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gb/dt/PortMapping.java" />
+        <option value="$PROJECT_DIR$/src/main/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gb/ir/IRLocalServer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/LSConfig.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="215" />
+    <option name="y" value="140" />
+    <option name="width" value="1932" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -325,13 +342,6 @@
             <path>
               <item name="IntranetRequest" type="b2602c69:ProjectViewProjectNode" />
               <item name="IntranetRequest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IntranetRequest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntranetRequest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -362,16 +372,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gb" type="462c0819:PsiDirectoryNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IntranetRequest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IntranetRequest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gb" type="462c0819:PsiDirectoryNode" />
-              <item name="dt" type="462c0819:PsiDirectoryNode" />
+              <item name="ir" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IntranetRequest" type="b2602c69:ProjectViewProjectNode" />
@@ -418,7 +419,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554732436730" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554790299208" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -462,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PortMapping">
+  <component name="RunManager" selected="Application.IRLocalServer">
     <configuration default="true" type="AndroidJUnit">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -570,9 +571,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PortMapping" />
         <item itemvalue="Application.IRLocalServer" />
         <item itemvalue="Application.IRRemoteServer" />
+        <item itemvalue="Application.PortMapping" />
         <item itemvalue="Application.IRClient" />
         <item itemvalue="Application.HelloWorld" />
       </list>
@@ -589,16 +590,15 @@
       <option name="presentableId" value="Default" />
       <updated>1554555149295</updated>
       <workItem from="1554555153464" duration="55920000" />
-      <workItem from="1554729250278" duration="3170000" />
+      <workItem from="1554729250278" duration="6319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59090000" />
+    <option name="totallyTimeSpent" value="62239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Build Variants" order="0" side_tool="true" />
       <window_info id="Capture Tool" order="1" />
@@ -606,18 +606,18 @@
       <window_info id="Favorites" order="3" sideWeight="0.50152904" side_tool="true" weight="0.23081024" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49847096" visible="true" weight="0.23347548" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49847096" visible="true" weight="0.23347548" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.26391983" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32850778" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32962137" />
       <window_info anchor="bottom" id="Build" order="6" weight="0.20712695" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.27171493" />
+      <window_info anchor="bottom" id="Run" order="9" visible="true" weight="0.27171493" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.3207127" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -734,18 +734,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/src/main/libs/pdfbox-app-2.0.14.jar!/org/bouncycastle/util/Arrays.class" />
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IntranetRequest.iml" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox-tools/2.0.13/d9f0cff90605bb1f61860c9c17e2307b3ce59b09/pdfbox-tools-2.0.13-sources.jar!/org/apache/pdfbox/tools/PDFBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="71" column="21" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -807,13 +795,6 @@
     <entry file="file://$PROJECT_DIR$/out/production/resources/README.md" />
     <entry file="file://$PROJECT_DIR$/aaa.txt" />
     <entry file="file://$PROJECT_DIR$/bbb.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/RSConfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/util/ByteUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -862,17 +843,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/output/dd9bab92-40c6-4eda-ae61-b53ad2d7f609.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/IRLocalServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="127" column="46" lean-forward="true" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6804#6805#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/output/5a3ece57-fd4e-4682-ac06-929c2212c3bd.png">
       <provider selected="true" editor-type-id="images" />
@@ -932,16 +902,6 @@
     <entry file="file://$PROJECT_DIR$/out/production/input/ChatClient.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/IRClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -949,16 +909,6 @@
             <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/IRRemoteServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,26 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="222" column="52" selection-start-line="222" selection-start-column="52" selection-end-line="222" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/LSConfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1026,13 +956,89 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/dt/PortMapping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="319">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="78" selection-start-line="11" selection-start-column="78" selection-end-line="11" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/IRClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/IRRemoteServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="48" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/RSConfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/LSConfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/ir/IRLocalServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="e#6757#6758#0" expanded="true" />
+            <element signature="e#6804#6805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/output/3e2f1da0-0397-4836-a0d8-3bf964183000.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/output/13dccb21-fe62-4c5e-a8d3-3628074d3762.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/output/79fc0859-d2ab-481b-9a46-e4ae9d501c03.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">

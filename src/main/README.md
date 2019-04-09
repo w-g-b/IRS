@@ -16,7 +16,9 @@
   "exeCommandDirectly": "java Print", //执行命令，为空时，忽略该选项
   "exeCommandWithFile": "java Print" //把文件名作为参数加到命令后面，如果ifSave为false,则效果和exeCommandDirectly一样
 }
-注意：当isExecutable为true的时候，三个exeCommand才会执行，并且三个exeCommand独立执行，效果会叠加，即执行多次，如果不需要，可直接设置为空字符创，
+注意：
+ 当isExecutable为true的时候，三个exeCommand才会执行，并且三个exeCommand独立执行，效果会叠加，即执行多次，如果不需要，可直接设置为空字符创，
+ 设置exeCommandWithMsg为run是，直接运行msg的内容，如"run "或者"run",在运行时会忽略掉run 
 3. 客户端开发注意事项
   * 需要先发送服务端名称到服务器，然后在发送具体传输的数据
   * 数据前面和结尾需要加上标记字节，以便分析文件开头和结尾

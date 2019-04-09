@@ -2,12 +2,12 @@
   "lsName": "printer",
   "rsIp": "139.199.88.206",
   "rsPort": 4567,
-  "isExecutable": true,
+  "isExecutable": false,
   "ifSave": true,
   "savePath": "",
   "fileName": "",
   "fileSuffix": "png",
   "exeCommandWithMsg": "",
-  "exeCommandDirectly": "notepad",
+  "exeCommandDirectly": "",
   "exeCommandWithFile": ""
 }
