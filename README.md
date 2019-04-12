@@ -19,7 +19,7 @@ IntranetRequestSystem
 
 下载
 ======
-[Android客户端](https://github.com/w-g-b/IRSClient-Android)
+[Android客户端](https://github.com/w-g-b/IRSClient-Android/releases/download/0.1.0/irsclient.apk)==>[GitHub工程](https://github.com/w-g-b/IRSClient-Android)
 
 可实现功能
 ======
