@@ -4,16 +4,16 @@ IntranetRequestSystem
  * 远程服务器（即公网下的主机，主要用于转发信息）
  * 本地服务器（完成客户端发送的请求任务，比如调用本地主机完成打印任务（打印机连接在本地主机上）
  * 客户端（发送请求给服务器，请求包括需要调用的本地服务器名称以及需要处理的数据）  
- ![](https://github.com/w-g-b/IntranetRequestSystem/blob/master/images/%E5%8E%9F%E7%90%86%E5%9B%BE.png)
+ ![](https://github.com/w-g-b/IRS/blob/master/images/%E5%8E%9F%E7%90%86%E5%9B%BE.png)
  
 内网调用系统调用源码实现简单，可以说什么都做不了，只是实现了公网转发数据而已；但也可以说什么都可以做，主要是看本地服务器以及客户端的功能，开发者可以个性化配置本地服务器去执行自己开发的工具来实现任意功能（当然这也需要重新定义客户端发送的数据）
 
 使用
 ======
 1. 运行远程服务端  
-![](https://github.com/w-g-b/IntranetRequestSystem/blob/master/images/20190407165211.png)
+![](https://github.com/w-g-b/IRS/blob/master/images/20190407165211.png)
 2. 运行本地服务端  
-![](https://github.com/w-g-b/IntranetRequestSystem/blob/master/images/20190407165259.png)
+![](https://github.com/w-g-b/IRS/blob/master/images/20190407165259.png)
 3. 打开客户端，发送消息  
 客户端开发好之后，对本地服务器进行配置，然后就只需这么三步，实现各种各样的功能
 
