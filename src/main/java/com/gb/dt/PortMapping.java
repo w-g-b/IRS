@@ -39,6 +39,7 @@ public class PortMapping {
                         desBos.flush();
                     }
                     desBos.flush();
+                    System.out.println("=======================");
                 }
             } catch (SocketException se) {
                 System.out.println("连接断开");
@@ -52,7 +53,7 @@ public class PortMapping {
                 byte[] bytes = new byte[Constant.BUFFER_BYTE_SIZE];
                 while (true) {
                     while ((len = desBis.read(bytes)) > 0) {
-                        System.out.println(new String(bytes, 0, len));
+//                        System.out.println(new String(bytes, 0, len));
                         srcBos.write(bytes, 0, len);
                         srcBos.flush();
                     }
