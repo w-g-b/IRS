@@ -11,8 +11,7 @@ public class MyBrowser {
         Socket browser = new Socket("127.0.0.1", 80);
         BufferedOutputStream bos = new BufferedOutputStream(browser.getOutputStream());
         BufferedInputStream bis = new BufferedInputStream(browser.getInputStream());
-
-        bos.write(("GET / HTTP/1.1\r\n" +
+        bos.write(("GET /a.jpg HTTP/1.1\r\n" +
                 "Host: 127.0.0.1:80\r\n" +
                 "Connection: keep-alive\r\n" +
                 "Upgrade-Insecure-Requests: 1\r\n" +

@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="391c2fa4-a3bb-4b4a-bf63-bfb7506cf53f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gb/browser/MyBrowser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gb/dt/PortMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gb/dt/PortMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gb/browser/MyBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gb/browser/MyBrowser.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,8 +49,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/dt/PortMapping.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="409">
-                  <caret line="35" selection-start-line="35" selection-end-line="35" />
+                <state relative-caret-position="394">
+                  <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#268#299#0" expanded="true" />
@@ -148,8 +147,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/browser/MyBrowser.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+                <state relative-caret-position="195">
+                  <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -363,7 +362,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555124906310" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555128283453" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -541,16 +540,15 @@
       <updated>1554555149295</updated>
       <workItem from="1554555153464" duration="55920000" />
       <workItem from="1554729250278" duration="7614000" />
-      <workItem from="1555121060603" duration="3853000" />
+      <workItem from="1555121060603" duration="6724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67387000" />
+    <option name="totallyTimeSpent" value="70258000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="1" width="1932" height="1045" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Build Variants" order="0" side_tool="true" />
       <window_info id="Capture Tool" order="1" />
@@ -560,7 +558,7 @@
       <window_info id="Designer" order="5" />
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49847096" visible="true" weight="0.2361111" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.313416" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3449831" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32850778" />
@@ -569,7 +567,7 @@
       <window_info anchor="bottom" id="Build" order="6" weight="0.20712695" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.2863585" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.524239" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.3201804" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -953,8 +951,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/dt/PortMapping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="394">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#268#299#0" expanded="true" />
@@ -964,8 +962,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gb/browser/MyBrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        <state relative-caret-position="195">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
